@@ -1,0 +1,19 @@
+nav{
+    background-color: var(--blue);
+    border-width: 2px 4px 2px 4px;
+    padding: .3rem;
+    box-shadow: 3px 3px #6592bb;
+    border-radius: 10px;
+    max-width: 1600px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

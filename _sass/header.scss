@@ -1,0 +1,31 @@
+:root{
+    --up: #4ebecd;
+    --down: #4ebecd;
+}
+@font-face {
+  font-family: 'Spongy';
+  src: url('SpongeFont.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+}
+h1 {
+  font-family: "Spongy"; 
+  color: var(--yellowHeadline);
+  text-shadow: -3px 5px var(--darkYellowHeadline);
+  background-image: linear-gradient(to bottom, var(--up) 0%, var(--down) 100%);
+  //Takes just the space it needs
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 10px 10px #22a6c1;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+@media (max-width:600px){
+    h1{
+        font-size: 2rem;
+    }
+}

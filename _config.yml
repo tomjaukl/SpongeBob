@@ -1,5 +1,17 @@
-title: tonic-starter
+title: SpongeBob Style
 description: ""
 encoding: utf-8
+
+navigation:
+  - title: Home
+    url: /
+  - title: Tonic
+    url: /tonic
+  - title: Developer
+    url: /developer
+
+
+
+
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
