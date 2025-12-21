@@ -6,8 +6,8 @@ navigation:
   - title: Home
     url: /
   - title: Tonic
-    url: /tonic
-  - title: Developer
+    url: https://tonic.hackclub.com
+  - title: Dev
     url: /developer
 
 

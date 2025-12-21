@@ -8,4 +8,6 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["lib/**/*", "README.md", "LICENSE"]
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
+  spec.add_runtime_dependency "jekyll", "~> 4.4"
+  spec.add_runtime_dependency "kramdown-parser-gfm"
 end

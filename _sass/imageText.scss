@@ -1,48 +1,23 @@
-.imageTextContainer{
-    background-color: var(--brown);
-    max-width: 1200px;
-    margin: auto;
+.mainContainer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(10, 111, 205, 0.409);
+    max-width: calc(1920px / 1.5);
+    filter: drop-shadow(5px 5px 5px #056bd9);
+    margin: auto;   
     border-radius: 10px;
-    box-shadow: 5px 5px #916231;
 }
 .imageContainer{
     margin: 10px;
-    max-width: 520px;
+    max-width: 90vw;
+    max-height: 600px;
 }
 .imageContainer img{
     box-sizing: border-box; 
     height: 100%;
     width: 100%;
     border-radius: 10px;
-}
-.textContainer{
-    padding: 1rem;
-    min-width: 300px;
-}
-.textContainer p{
-    padding: .4rem;
-    max-width: 600px;
-    font-size: 1.5rem;
-    background-color: var(--white);
-    border-radius: 0 10px 10px 10px;
-    overflow-y: auto;
-    max-height: 300px;
-}
-.textContainer h3{
-    padding: .4rem;
-    background-color: var(--white);
-    font-size: 1.75rem;
-    display: inline-block;
-    border-radius: 10px 10px 0 0;
-}
-@media (max-width:600px){
-    .imageTextContainer{
-        flex-direction: column;
-    }
-    .textContainer p{
-        max-width: none;
-    }
 }
 @media (min-width:601px){
     .imageTextContainer{

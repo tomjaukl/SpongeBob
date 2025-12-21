@@ -1,9 +1,8 @@
-<div class="imageTextContainer">
+<div class="{{ include.class | default: 'mainContainer' }}">
     <div class="imageContainer">
         <img src="{{ include.image_url }}" alt="{{ include.image_alt | default: 'Image' }}">
     </div>
-    <div class="textContainer">
-        <h3>{{ include.headline}}</h3>
-        <p>{{ include.text }}</p> 
+    <div>
+        {% include blog.html headline=include.headline text=include.text %}
     </div>
 </div>
