@@ -1,6 +1,7 @@
 Gem::Specification.new do |spec|
-  spec.name          = "spongebob-theme"
+  spec.name          = "spongytheme"
   spec.version       = "0.1.0"
+  spec.homepage      = "https://github.com/tomjaukl/SpongeBob"
   spec.summary       = "a simple ruby theme based on spongebob"
   spec.description   = "a few components for basic webpages"
   spec.authors       = ["tom jaukl"]
